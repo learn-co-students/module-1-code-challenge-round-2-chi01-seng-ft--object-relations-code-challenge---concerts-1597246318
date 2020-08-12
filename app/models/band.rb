@@ -1,11 +1,11 @@
 class Band
     attr_accessor :name
-    attr_reader :hometown
+    attr_reader :city
     @@all = []
 
-    def initialize(name, hometown)
+    def initialize(name, city)
         @name = name
-        @hometown = hometown
+        @city = city
         @@all << self
     end
 

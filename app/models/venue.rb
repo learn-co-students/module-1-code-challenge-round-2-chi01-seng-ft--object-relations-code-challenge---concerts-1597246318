@@ -12,4 +12,10 @@ class Venue
     def self.all
         @@all
     end
+
+    def concert
+    end 
 end
+
+
+
