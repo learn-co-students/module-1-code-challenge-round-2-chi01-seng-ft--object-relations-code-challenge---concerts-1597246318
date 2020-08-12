@@ -9,7 +9,21 @@ class Venue
         @@all << self
     end
 
+    def title 
+        @title 
+    end 
+
+    def city 
+        @city 
+    end 
+
+    def bands 
+    end 
+
+
+    
     def self.all
         @@all
     end
 end
+
