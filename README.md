@@ -10,6 +10,8 @@ For our purposes, a `Band` has many `Concerts`, a `Venue` has many `Concerts`s, 
 
 **Note**: You should draw your domain on paper or on a whiteboard _before you start coding_. Remember to identify a single source of truth for your data.
 
+ Band -< concert >- venue
+
 ## Topics
 
 - Classes and Instances
