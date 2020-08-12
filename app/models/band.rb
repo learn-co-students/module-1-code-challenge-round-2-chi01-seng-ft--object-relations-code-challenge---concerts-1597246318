@@ -1,6 +1,7 @@
 class Band
-    attr_accessor :name
+    attr_accessor :name, :concert
     attr_reader :hometown
+
     @@all = []
 
     def initialize(name, hometown)
@@ -12,4 +13,9 @@ class Band
     def self.all
         @@all
     end
+
+    def concerts 
+        Concert.all.select {|band_instance| band_instance.band == self}
+        return @band
+    end 
 end
